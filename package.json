@@ -1,0 +1,32 @@
+{
+  "name": "cc-predict",
+  "version": "1.0.0",
+  "description": "Forecast your Claude Code usage — projected month-end hours, ghost days, and streak",
+  "type": "module",
+  "bin": {
+    "cc-predict": "cli.mjs"
+  },
+  "files": [
+    "cli.mjs",
+    "README.md"
+  ],
+  "keywords": [
+    "claude",
+    "claude-code",
+    "ai",
+    "productivity",
+    "forecast",
+    "cli",
+    "cc-toolkit"
+  ],
+  "author": "yurukusa",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yurukusa/cc-predict.git"
+  },
+  "homepage": "https://yurukusa.github.io/cc-toolkit/",
+  "engines": {
+    "node": ">=18"
+  }
+}
