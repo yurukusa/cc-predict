@@ -63,8 +63,8 @@ function dayOfMonth(dateStr) {
 // ── Load data ────────────────────────────────────────────────────────────────
 function loadData() {
   const paths = [
+    ['cc-agent-load', ['--json']],
     [join(HOME, 'bin', 'cc-agent-load'), ['--json']],
-    ['node', [join(HOME, 'projects', 'cc-loop', 'cc-agent-load', 'cli.mjs'), '--json']],
   ];
   for (const [cmd, cmdArgs] of paths) {
     try {

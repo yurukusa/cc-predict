@@ -1,7 +1,7 @@
 {
   "name": "cc-predict",
-  "version": "1.0.0",
-  "description": "Forecast your Claude Code usage — projected month-end hours, ghost days, and streak",
+  "version": "1.0.1",
+  "description": "Forecast your Claude Code usage \u2014 projected month-end hours, ghost days, and streak",
   "type": "module",
   "bin": {
     "cc-predict": "cli.mjs"
@@ -28,5 +28,8 @@
   "homepage": "https://yurukusa.github.io/cc-toolkit/",
   "engines": {
     "node": ">=18"
+  },
+  "peerDependencies": {
+    "cc-agent-load": ">=1.0.0"
   }
 }
